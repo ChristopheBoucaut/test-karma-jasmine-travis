@@ -1,0 +1,23 @@
+{
+  "name": "test-karma-jasmine-travis",
+  "version": "1.0.0",
+  "description": "For fun =)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristopheBoucaut/test-karma-jasmine-travis.git"
+  },
+  "keywords": [
+    "karma",
+    "jasmine",
+    "travis"
+  ],
+  "author": "Christophe Boucaut",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ChristopheBoucaut/test-karma-jasmine-travis/issues"
+  },
+  "homepage": "https://github.com/ChristopheBoucaut/test-karma-jasmine-travis"
+}

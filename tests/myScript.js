@@ -2,6 +2,9 @@
 
 describe('My Script', function() {
     it('should throw an error', function() {
-        expect(window.addClassOnElement('ee')).toThrowError(window.CustomException);
+        function addTheBadClass() {
+            window.addClassOnElement('ee');
+        }
+        expect(addTheBadClass).toThrowError(window.CustomException);
     });
 });

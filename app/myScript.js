@@ -10,6 +10,8 @@ window.CustomException = (function () {
     }
     CustomException.prototype = Object.create(Error.prototype, {name: {value: 'CustomException'}});
     CustomException.prototype.constructor = CustomException;
+
+    return CustomException;
 })();
 
 window.addClassOnElement = (function (CustomException) {

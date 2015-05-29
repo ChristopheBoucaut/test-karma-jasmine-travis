@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "For fun =)",
   "scripts": {
+    "karma": "node_modules/karma/bin/karma",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/ChristopheBoucaut/test-karma-jasmine-travis/issues"
   },
-  "homepage": "https://github.com/ChristopheBoucaut/test-karma-jasmine-travis"
+  "homepage": "https://github.com/ChristopheBoucaut/test-karma-jasmine-travis",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.33",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.5"
+  }
 }
